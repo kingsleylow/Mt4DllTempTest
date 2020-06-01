@@ -27,7 +27,7 @@ MtManager::MtManager()
 
     int err = m_pumpManager->PumpingSwitch(PumpingFunc, NULL, 0, 0);
     string errStr = m_pumpManager->ErrorDescription(err);
-    Console::out("PumpingSwitch--", errStr);
+    Console::out("PumpingSwitch errStr--", errStr);
 }
 
 MtManager* MtManager::m_mtManager = new MtManager();
