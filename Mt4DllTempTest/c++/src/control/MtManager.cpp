@@ -23,7 +23,7 @@ deque<string> MtManager::getGroupList()
     int groupCount = 0;
 	ConGroup* congroupList = m_manager->GroupsRequest(&groupCount);
 
-    Console::out("MtManager::getGroupList groupCount = ", groupCount);
+    
 
     deque<string> groupList;
 	if (congroupList != NULL && groupCount != 0)
@@ -33,6 +33,8 @@ deque<string> MtManager::getGroupList()
             groupList.push_back(congroupList[i].group);
         }
 	}
+
+    Console::out("MtManager::getGroupList groupCount = ", groupList.size());
 
     m_manager->MemFree(congroupList);
 
