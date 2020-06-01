@@ -5,7 +5,7 @@
 class MtDllTest
 {
 public:
-    static Napi::Array pumpTest(const Napi::CallbackInfo& info);
-
+    static Napi::Array pumpManagerTest(const Napi::CallbackInfo& info);
+    static Napi::Array managerTest(const Napi::CallbackInfo& info);
 
 };

@@ -7,18 +7,18 @@
 
 using namespace std;
 
-class MtManager
+class MtPumpManager
 {
 public:
-    MtManager();
+    MtPumpManager();
 
 public:
-    static MtManager* m_instance;
-    static MtManager* getInstance();
+    static MtPumpManager* m_instance;
+    static MtPumpManager* getInstance();
 
 private:
     CManagerFactory m_managerFactory;
-    CManagerInterface* m_manager;
+    CManagerInterface* m_pumpManager;
 
 public:
     deque<string> getGroupList();

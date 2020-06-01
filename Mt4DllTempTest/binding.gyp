@@ -7,6 +7,7 @@
       "sources": [
       "c++/src/view/MtDllTest.cpp",
       "c++/src/control/MtManager.cpp",
+      "c++/src/control/MtPumpManager.cpp",
 
       #library
       "c++/include/library/napi/NapiObject.cpp",

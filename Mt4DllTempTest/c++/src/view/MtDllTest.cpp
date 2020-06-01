@@ -3,9 +3,22 @@
 #include <library/system/Console.hpp>
 
 #include<src/control/MtManager.h>
+#include<src/control/MtPumpManager.h>
 
+Napi::Array MtDllTest::pumpManagerTest(const Napi::CallbackInfo& info)
+{
+    NapiArray groupArray(info.Env());
+    
+    deque<string> groupList = MtPumpManager::getInstance()->getGroupList();
+    for(int i = 0; i < groupList.size(); i++)
+    {
+        groupArray.set(i, groupList[i]);
+    }
 
-Napi::Array MtDllTest::pumpTest(const Napi::CallbackInfo& info)
+    return groupArray.toJsArray();
+}
+
+Napi::Array MtDllTest::managerTest(const Napi::CallbackInfo& info)
 {
     NapiArray groupArray(info.Env());
     
@@ -21,7 +34,8 @@ Napi::Array MtDllTest::pumpTest(const Napi::CallbackInfo& info)
 Napi::Object MtDllTestFunRegister(Napi::Env env, Napi::Object exports)
 {
 
-  exports.Set("pumpTest", Napi::Function::New(env, MtDllTest::pumpTest));
+  exports.Set("pumpManagerTest", Napi::Function::New(env, MtDllTest::pumpManagerTest));
+  exports.Set("managerTest", Napi::Function::New(env, MtDllTest::managerTest));
 
   return exports;
 }
