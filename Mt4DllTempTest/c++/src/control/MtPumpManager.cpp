@@ -42,6 +42,8 @@ deque<string> MtPumpManager::getGroupList()
     int groupCount = 0;
 	ConGroup* congroupList = m_pumpManager->GroupsRequest(&groupCount);
 
+    Console::out("MtPumpManager::getGroupList groupCount = ", groupCount);
+
     deque<string> groupList;
 	if (congroupList != NULL && groupCount != 0)
 	{
