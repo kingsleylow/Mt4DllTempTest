@@ -23,9 +23,6 @@ Napi::Array MtDllTest::managerTest(const Napi::CallbackInfo& info)
     NapiArray groupArray(info.Env());
     
     deque<string> groupList = MtManager::getInstance()->getGroupList();
-    
-    Console::out("groupList size = ", groupList.size());
-
     for(int i = 0; i < groupList.size(); i++)
     {
         groupArray.set(i, groupList[i]);
