@@ -1,0 +1,8 @@
+0	2020.06.01 15:40:08.798		MetaTrader 4 Manager API build 1170 initialized
+0	2020.06.01 15:40:10.005	mttest.zhaodaishu.com	Connect
+0	2020.06.01 15:40:10.246	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.01 15:40:10.281	mttest.zhaodaishu.com	'1': pumping switch
+0	2020.06.01 15:40:19.887		Unload: manager 4DFF4120 not released
+0	2020.06.01 15:40:19.988	mttest.zhaodaishu.com	'1': disconnect pumping
+0	2020.06.01 15:40:19.988	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.01 15:40:19.988		Remove: manager 4DFF4120
