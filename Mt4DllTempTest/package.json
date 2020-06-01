@@ -1,0 +1,17 @@
+{
+  "name": "MtDllTest",
+  "version": "1.0.0",
+  "description": "Node.js Addons Example #2",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "3.0.0"
+  },
+  "scripts": {
+    "test": "npm i&&node addon.js",
+    "clean": "rimraf ./logs",
+    "start": "rimraf ./logs&& node mt4"
+  },
+  "gypfile": true
+}

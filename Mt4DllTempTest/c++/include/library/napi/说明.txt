@@ -1,0 +1,25 @@
+把 Napi::Object Napi::Array Napi::String ... 封装
+
+为 NapiObject NapiArray 类
+
+既可以用来包装参数。
+也可以用来作为返回值。
+
+
+使用:
+1 解析参数  参考src/view/new/NewParamConvert
+
+NapiInt intParam(info.Env(), info[0]);
+Console::out("intParam:", intParam.toNativeInt());
+    
+2 返回参数参考src/view/new/NewReturnValueConvert
+
+NapiInt intResult(info.Env(), 200);
+return intResult.toJsInt();
+
+
+说明：
+   1 NapiObject NapiArray 不能重载 [] 不是基础类型，做不到设置属性值。
+
+   2 c++ 内部肯定是原生变量基础类型来各种数据操作。 那么Napi这些类型其实功能就是解析参数。
+     把数据解析成Js对象。 api的设计也分为这两类。 get就是解析参数。  set就是构造js对象。
