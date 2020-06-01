@@ -25,7 +25,8 @@ MtManager::MtManager()
     m_pumpManager->Connect("mttest.zhaodaishu.com");
     m_pumpManager->Login(1, "manager");
 
-    m_pumpManager->PumpingSwitch(PumpingFunc, NULL, 0, 0);
+    int err = m_pumpManager->PumpingSwitch(PumpingFunc, NULL, 0, 0);
+    Console::out("PumpingSwitch--", err, m_pumpManager->ErrorDescription(err));
 }
 
 MtManager* MtManager::m_mtManager = new MtManager();
