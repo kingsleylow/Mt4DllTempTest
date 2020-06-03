@@ -5,10 +5,16 @@
 
 MtManager::MtManager()
 {
-    m_manager = m_managerFactory.Create(ManAPIVersion);
+    m_managerFactory = new CManagerFactory("lib\\mtmanapi64.dll");
+    m_manager = m_managerFactory->Create(ManAPIVersion);
 
     m_manager->Connect("mttest.zhaodaishu.com");
     m_manager->Login(1, "manager");
+}
+
+MtManager::~MtManager()
+{
+    delete m_managerFactory;
 }
 
 MtManager* MtManager::m_instance = new MtManager();

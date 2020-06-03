@@ -1,0 +1,34 @@
+0	2020.06.02 18:01:11.985		MetaTrader 4 Manager API build 1170 initialized
+0	2020.06.02 18:01:12.098	mttest.zhaodaishu.com	Connect
+0	2020.06.02 18:01:12.253	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 18:01:12.290	mttest.zhaodaishu.com	Connect
+0	2020.06.02 18:01:12.446	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 18:01:12.479	mttest.zhaodaishu.com	'1': pumping switch
+0	2020.06.02 18:01:12.517	mttest.zhaodaishu.com	'1': request 10 groups
+80	2020.06.02 18:01:12.552	mttest.zhaodaishu.com	'1': request groups (Unknown error)
+0	2020.06.02 18:01:12.554	mttest.zhaodaishu.com	'1': refresh symbols
+0	2020.06.02 18:01:12.554	mttest.zhaodaishu.com	'1': pumping manager rights
+0	2020.06.02 18:01:12.555	mttest.zhaodaishu.com	'1': pumping mode stopped
+0	2020.06.02 18:01:18.950		Unload: manager B602ABC0 not released
+0	2020.06.02 18:01:18.950	mttest.zhaodaishu.com	'1': disconnect pumping
+0	2020.06.02 18:01:18.950	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:01:18.950		Remove: manager B602ABC0
+0	2020.06.02 18:01:18.950		Unload: manager B601BC40 not released
+0	2020.06.02 18:01:19.051	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:01:19.051		Remove: manager B601BC40
+0	2020.06.02 18:01:36.421		MetaTrader 4 Manager API build 1170 initialized
+0	2020.06.02 18:01:36.445	mttest.zhaodaishu.com	Connect
+0	2020.06.02 18:01:36.600	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 18:01:36.637	mttest.zhaodaishu.com	Connect
+0	2020.06.02 18:01:36.796	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 18:01:36.832	mttest.zhaodaishu.com	'1': pumping switch
+0	2020.06.02 18:01:36.871	mttest.zhaodaishu.com	'1': request 10 groups
+0	2020.06.02 18:01:36.931	mttest.zhaodaishu.com	'1': refresh symbols
+0	2020.06.02 18:01:37.270	mttest.zhaodaishu.com	'1': pumping mode started
+0	2020.06.02 18:06:33.845		Unload: manager 2F8165E0 not released
+0	2020.06.02 18:06:33.947	mttest.zhaodaishu.com	'1': disconnect pumping
+0	2020.06.02 18:06:33.947	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:06:33.947		Remove: manager 2F8165E0
+0	2020.06.02 18:06:33.948		Unload: manager 2F7FE940 not released
+0	2020.06.02 18:06:34.049	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:06:34.049		Remove: manager 2F7FE940

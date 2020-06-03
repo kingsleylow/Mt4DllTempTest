@@ -1,0 +1,18 @@
+0	2020.06.02 17:48:50.629		MetaTrader 4 Manager API build 1170 initialized
+0	2020.06.02 17:48:50.739	mttest.zhaodaishu.com	Connect
+0	2020.06.02 17:48:50.895	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 17:48:50.931	mttest.zhaodaishu.com	Connect
+0	2020.06.02 17:48:51.084	mttest.zhaodaishu.com	'1': login (server build 1260)
+0	2020.06.02 17:48:51.119	mttest.zhaodaishu.com	'1': pumping switch
+0	2020.06.02 17:48:51.158	mttest.zhaodaishu.com	'1': request 10 groups
+80	2020.06.02 17:48:51.192	mttest.zhaodaishu.com	'1': request groups (Unknown error)
+0	2020.06.02 17:48:51.193	mttest.zhaodaishu.com	'1': refresh symbols
+0	2020.06.02 17:48:51.193	mttest.zhaodaishu.com	'1': pumping manager rights
+0	2020.06.02 17:48:51.195	mttest.zhaodaishu.com	'1': pumping mode stopped
+0	2020.06.02 18:01:07.863		Unload: manager 81DFC9D0 not released
+0	2020.06.02 18:01:07.863	mttest.zhaodaishu.com	'1': disconnect pumping
+0	2020.06.02 18:01:07.863	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:01:07.863		Remove: manager 81DFC9D0
+0	2020.06.02 18:01:07.863		Unload: manager 81DE7F30 not released
+0	2020.06.02 18:01:07.964	mttest.zhaodaishu.com	'1': disconnect
+0	2020.06.02 18:01:07.964		Remove: manager 81DE7F30

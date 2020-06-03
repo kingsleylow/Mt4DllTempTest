@@ -11,13 +11,14 @@ class MtManager
 {
 public:
     MtManager();
+    ~MtManager();
 
 public:
     static MtManager* m_instance;
     static MtManager* getInstance();
 
 private:
-    CManagerFactory m_managerFactory;
+    CManagerFactory* m_managerFactory;
     CManagerInterface* m_manager;
 
 public:
